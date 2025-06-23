@@ -1,0 +1,15 @@
+2025-06-15 16:00:08,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-15 16:00:08,155 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 16:00:08,156 - INFO -  * Restarting with stat
+2025-06-15 16:00:08,961 - WARNING -  * Debugger is active!
+2025-06-15 16:00:08,963 - INFO -  * Debugger PIN: 891-755-069
+2025-06-15 16:00:23,406 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:23] "GET / HTTP/1.1" 200 -
+2025-06-15 16:00:30,463 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /apidocs/ HTTP/1.1" 200 -
+2025-06-15 16:00:30,589 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-06-15 16:00:30,616 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-06-15 16:00:30,639 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-06-15 16:00:30,714 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-06-15 16:00:30,782 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-06-15 16:00:35,316 - INFO - Received prediction request: {'age_cat': 2, 'albumin_cat': 3, 'blood_glucose_random_cat': 1, 'blood_pressure_cat': 1, 'blood_urea_cat': 2, 'haemoglobin_cat': 2, 'serum_creatinine_cat': 2, 'sodium_cat': 1, 'specific_gravity_cat': 1, 'sugar_cat': 0}
+2025-06-15 16:00:35,317 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:35] "POST /predict HTTP/1.1" 200 -
