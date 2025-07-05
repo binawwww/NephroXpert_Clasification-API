@@ -8,7 +8,7 @@ import logging
 from datetime import datetime
 
 # Load model dan preprocessor
-model = joblib.load('fitur_preprocessor_fitur.pkl')
+model = joblib.load('preprocessor_fitur.pkl')
 preprocessor = joblib.load('preprocessor_fitur.pkl')
 
 # Label klasifikasi (pastikan urutannya sesuai dengan label pada model)
