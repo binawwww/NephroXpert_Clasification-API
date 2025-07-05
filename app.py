@@ -8,8 +8,8 @@ import logging
 from datetime import datetime
 
 # Load model dan preprocessor
-model = joblib.load('svm_10fitur.pkl')
-preprocessor = joblib.load('preprocessor_10fitur.pkl')
+model = joblib.load('fitur_preprocessor_fitur.pkl')
+preprocessor = joblib.load('preprocessor_fitur.pkl')
 
 # Label klasifikasi (pastikan urutannya sesuai dengan label pada model)
 label_classes = ['Negatif CKD', 'Positif CKD']
@@ -103,20 +103,24 @@ def predict():
         # Masukkan data ke DataFrame dengan urutan yang sesuai
         values = np.array([[
             float(data['haemoglobin']),
-            float(data['specific_gravity']),
-            float(data['albumin']),
-            float(data['blood_glucose_random']),
-            float(data['sugar']),
-            float(data['age']),
+            float(data['blood_glucose_random']),    
             float(data['blood_urea']),
-            float(data['blood_pressure']),
+            float(data['potassium']),
+            float(data['sodium']),
             float(data['serum_creatinine']),
-            float(data['sodium'])
+            float(data['specific_gravity']),
+            float(data['blood_pressure']),
+            float(data['albumin']),
+            float(data['sugar'])
+
+
+
+
+
         ]]).reshape(1, -1)
 
-        features = ['haemoglobin', 'specific_gravity','albumin',
-                'blood_glucose_random', 'sugar', 'age',
-                'blood_urea', 'blood_pressure', 'serum_creatinine', 'sodium']
+        features = ['haemoglobin', 'blood_glucose_random', 'blood_urea','potassium', 'sodium', 'serum_creatinine','specific_gravity', 'blood_pressure', 'albumin', 'sugar']
+        
         input_df = pd.DataFrame(values, columns=features)
         df_processed = preprocessor.transform(input_df)
         predicted = model.predict(df_processed)[0]
