@@ -50,7 +50,7 @@ def home():
                     'albumin': {'type': 'number', 'example': 0},
                     'blood_glucose_random': {'type': 'number', 'example': 110},
                     'sugar': {'type': 'number', 'example': 0},
-                    'age': {'type': 'number', 'example': 45},
+                    'potassium': {'type': 'number', 'example': 45},
                     'blood_urea': {'type': 'number', 'example': 40},
                     'blood_pressure': {'type': 'number', 'example': 80},
                     'serum_creatinine': {'type': 'number', 'example': 1.2},
@@ -58,7 +58,7 @@ def home():
                 },
                 'required': [
                     'haemoglobin', 'specific_gravity', 'albumin', 'blood_glucose_random',
-                    'sugar', 'age', 'blood_urea', 'blood_pressure', 
+                    'sugar', 'potassium', 'blood_urea', 'blood_pressure', 
                     'serum_creatinine', 'sodium'
                 ]
             }
