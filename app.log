@@ -164,3 +164,18 @@
 2026-04-20 19:33:21,107 - WARNING -  * Debugger is active!
 2026-04-20 19:33:21,109 - INFO -  * Debugger PIN: 986-103-887
 2026-04-20 19:33:23,398 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:33:23,672 - INFO -  * Restarting with stat
+2026-04-20 19:33:25,332 - WARNING -  * Debugger is active!
+2026-04-20 19:33:25,336 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:34:11,136 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:34:11,151 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:34:11,152 - INFO - 127.0.0.1 - - [20/Apr/2026 19:34:11] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:34:12,861 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:34:12,880 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:34:12,880 - INFO - 127.0.0.1 - - [20/Apr/2026 19:34:12] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:36:51,413 - INFO - Received prediction request: {'haemoglobin': 9.5, 'packed_cell_volume': 28, 'specific_gravity': 1.01, 'serum_creatinine': 3.2, 'appetite': 'poor', 'hypertension': 'yes', 'blood_urea': 80, 'diabetes_mellitus': 'yes', 'sodium': 130, 'albumin': 2, 'red_blood_cell_count': 3.2, 'aanemia': 'yes'}
+2026-04-20 19:36:51,424 - INFO - Probabilities: {'Negatif CKD': 2.386028958902482e-07, 'Positif CKD': 0.9999997613971041}
+2026-04-20 19:36:51,424 - INFO - 127.0.0.1 - - [20/Apr/2026 19:36:51] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:37:08,632 - INFO - Received prediction request: {'haemoglobin': 13.8, 'packed_cell_volume': 42, 'specific_gravity': 1.02, 'serum_creatinine': 1.0, 'appetite': 'good', 'hypertension': 'no', 'blood_urea': 30, 'diabetes_mellitus': 'no', 'sodium': 140, 'albumin': 0, 'red_blood_cell_count': 5.0, 'aanemia': 'no'}
+2026-04-20 19:37:08,646 - INFO - Probabilities: {'Negatif CKD': 0.9827807207036909, 'Positif CKD': 0.017219279296309148}
+2026-04-20 19:37:08,647 - INFO - 127.0.0.1 - - [20/Apr/2026 19:37:08] "POST /predict HTTP/1.1" 200 -
