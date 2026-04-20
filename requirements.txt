@@ -10,3 +10,4 @@ flask_cors
 flasgger
 joblib
 pandas
+imbalanced-learn

@@ -13,3 +13,154 @@
 2025-06-15 16:00:30,782 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:30] "GET /apispec_1.json HTTP/1.1" 200 -
 2025-06-15 16:00:35,316 - INFO - Received prediction request: {'age_cat': 2, 'albumin_cat': 3, 'blood_glucose_random_cat': 1, 'blood_pressure_cat': 1, 'blood_urea_cat': 2, 'haemoglobin_cat': 2, 'serum_creatinine_cat': 2, 'sodium_cat': 1, 'specific_gravity_cat': 1, 'sugar_cat': 0}
 2025-06-15 16:00:35,317 - INFO - 127.0.0.1 - - [15/Jun/2025 16:00:35] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:02:56,865 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:02:56,865 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:02:56,875 - INFO -  * Restarting with stat
+2026-04-20 19:02:58,693 - WARNING -  * Debugger is active!
+2026-04-20 19:02:58,697 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:03:05,879 - INFO - Received prediction request: {'haemoglobin': 12.3, 'specific_gravity': 1.02, 'albumin': 0, 'blood_glucose_random': 110, 'sugar': 0, 'potassium': 45, 'blood_urea': 40, 'blood_pressure': 80, 'serum_creatinine': 1.2, 'sodium': 140}
+2026-04-20 19:03:05,880 - ERROR - Prediction error: 'list' object has no attribute 'transform'
+2026-04-20 19:03:05,880 - INFO - 127.0.0.1 - - [20/Apr/2026 19:03:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-04-20 19:03:16,067 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:03:16,270 - INFO -  * Restarting with stat
+2026-04-20 19:03:22,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:03:22,564 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:03:22,565 - INFO -  * Restarting with stat
+2026-04-20 19:03:24,251 - WARNING -  * Debugger is active!
+2026-04-20 19:03:24,254 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:03:42,394 - INFO - Received prediction request: {'haemoglobin': 12.3, 'specific_gravity': 1.02, 'albumin': 0, 'blood_glucose_random': 110, 'sugar': 0, 'potassium': 45, 'blood_urea': 40, 'blood_pressure': 80, 'serum_creatinine': 1.2, 'sodium': 140}
+2026-04-20 19:03:42,394 - ERROR - Prediction error: columns are missing: {'packed_cell_volume', 'diabetes_mellitus', 'appetite', 'aanemia', 'red_blood_cell_count', 'hypertension'}
+2026-04-20 19:03:42,395 - INFO - 127.0.0.1 - - [20/Apr/2026 19:03:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-04-20 19:04:04,323 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:04:04,569 - INFO -  * Restarting with stat
+2026-04-20 19:04:06,380 - WARNING -  * Debugger is active!
+2026-04-20 19:04:06,385 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:04:09,521 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:04:09,740 - INFO -  * Restarting with stat
+2026-04-20 19:04:11,428 - WARNING -  * Debugger is active!
+2026-04-20 19:04:11,432 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:04:29,780 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:04:29,994 - INFO -  * Restarting with stat
+2026-04-20 19:04:58,667 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:04:58,667 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:04:58,668 - INFO -  * Restarting with stat
+2026-04-20 19:05:00,321 - WARNING -  * Debugger is active!
+2026-04-20 19:05:00,325 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:05:13,671 - INFO - Received prediction request: {'haemoglobin': 12.3, 'packed_cell_volume': 40, 'specific_gravity': 1.02, 'serum_creatinine': 1.2, 'appetite': 'good', 'hypertension': 'no', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'sodium': 140, 'albumin': 0, 'red_blood_cell_count': 5.0, 'anaemia': 'no'}
+2026-04-20 19:05:13,672 - ERROR - Prediction error: columns are missing: {'aanemia'}
+2026-04-20 19:05:13,672 - INFO - 127.0.0.1 - - [20/Apr/2026 19:05:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-04-20 19:05:50,721 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:05:50,933 - INFO -  * Restarting with stat
+2026-04-20 19:05:52,759 - WARNING -  * Debugger is active!
+2026-04-20 19:05:52,762 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:05:54,570 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:05:54,813 - INFO -  * Restarting with stat
+2026-04-20 19:05:56,571 - WARNING -  * Debugger is active!
+2026-04-20 19:05:56,574 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:06:03,514 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:06:03,720 - INFO -  * Restarting with stat
+2026-04-20 19:06:05,578 - WARNING -  * Debugger is active!
+2026-04-20 19:06:05,582 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:06:07,412 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:06:07,620 - INFO -  * Restarting with stat
+2026-04-20 19:06:15,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:06:15,257 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:06:15,258 - INFO -  * Restarting with stat
+2026-04-20 19:06:16,874 - WARNING -  * Debugger is active!
+2026-04-20 19:06:16,877 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:06:28,364 - INFO - Received prediction request: {'haemoglobin': 12.3, 'packed_cell_volume': 40, 'specific_gravity': 1.02, 'serum_creatinine': 1.2, 'appetite': 'good', 'hypertension': 'no', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'sodium': 140, 'albumin': 0, 'red_blood_cell_count': 5.0, 'anemia': 'no'}
+2026-04-20 19:06:28,365 - ERROR - Prediction error: columns are missing: {'aanemia'}
+2026-04-20 19:06:28,366 - INFO - 127.0.0.1 - - [20/Apr/2026 19:06:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2026-04-20 19:06:44,068 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:06:44,302 - INFO -  * Restarting with stat
+2026-04-20 19:06:46,209 - WARNING -  * Debugger is active!
+2026-04-20 19:06:46,212 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:06:48,059 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:06:48,268 - INFO -  * Restarting with stat
+2026-04-20 19:06:50,053 - WARNING -  * Debugger is active!
+2026-04-20 19:06:50,057 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:07:07,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:07:07,554 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:07:07,555 - INFO -  * Restarting with stat
+2026-04-20 19:07:09,213 - WARNING -  * Debugger is active!
+2026-04-20 19:07:09,217 - INFO -  * Debugger PIN: 106-488-333
+2026-04-20 19:07:13,775 - INFO - Received prediction request: {'haemoglobin': 12.3, 'packed_cell_volume': 40, 'specific_gravity': 1.02, 'serum_creatinine': 1.2, 'appetite': 'good', 'hypertension': 'no', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'sodium': 140, 'albumin': 0, 'red_blood_cell_count': 5.0, 'aanemia': 'no'}
+2026-04-20 19:07:13,782 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:07:13,783 - INFO - 127.0.0.1 - - [20/Apr/2026 19:07:13] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:20:23,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:20:23,147 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:20:23,157 - INFO -  * Restarting with stat
+2026-04-20 19:20:24,746 - WARNING -  * Debugger is active!
+2026-04-20 19:20:24,750 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:20:57,330 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:57] "GET /apidocs/ HTTP/1.1" 200 -
+2026-04-20 19:20:57,526 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:57] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-04-20 19:20:57,623 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:57] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-04-20 19:20:57,915 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:57] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-04-20 19:20:59,658 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:59] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-04-20 19:20:59,702 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:59] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-04-20 19:20:59,742 - INFO - 127.0.0.1 - - [20/Apr/2026 19:20:59] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2026-04-20 19:21:12,482 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:21:12,494 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:21:12,494 - INFO - 127.0.0.1 - - [20/Apr/2026 19:21:12] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:23:13,602 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:23:13,828 - INFO -  * Restarting with stat
+2026-04-20 19:23:14,075 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:23:14,508 - INFO -  * Restarting with stat
+2026-04-20 19:24:35,691 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:24:35,691 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:24:35,692 - INFO -  * Restarting with stat
+2026-04-20 19:24:37,266 - WARNING -  * Debugger is active!
+2026-04-20 19:24:37,269 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:24:38,566 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:24:38,575 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:24:38,576 - INFO - 127.0.0.1 - - [20/Apr/2026 19:24:38] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:27:02,314 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:27:02,597 - INFO -  * Restarting with stat
+2026-04-20 19:27:04,411 - WARNING -  * Debugger is active!
+2026-04-20 19:27:04,414 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:27:21,396 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:27:21,716 - INFO -  * Restarting with stat
+2026-04-20 19:27:23,475 - WARNING -  * Debugger is active!
+2026-04-20 19:27:23,477 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:27:46,187 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:27:46,200 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:27:46,201 - INFO - 127.0.0.1 - - [20/Apr/2026 19:27:46] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:27:47,654 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:27:47,665 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:27:47,665 - INFO - 127.0.0.1 - - [20/Apr/2026 19:27:47] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:27:47,879 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:27:47,890 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:27:47,890 - INFO - 127.0.0.1 - - [20/Apr/2026 19:27:47] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:27:58,129 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:27:58,421 - INFO -  * Restarting with stat
+2026-04-20 19:28:21,171 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 19:28:21,171 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 19:28:21,172 - INFO -  * Restarting with stat
+2026-04-20 19:28:22,721 - WARNING -  * Debugger is active!
+2026-04-20 19:28:22,724 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:28:25,090 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:25] "GET /apidocs/ HTTP/1.1" 200 -
+2026-04-20 19:28:25,259 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:25] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-04-20 19:28:25,376 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:25] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-04-20 19:28:25,627 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:25] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-04-20 19:28:27,342 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:27] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-04-20 19:28:27,372 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:27] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-04-20 19:28:27,375 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:27] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2026-04-20 19:28:39,690 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:28:39,703 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:28:39,703 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:39] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:28:41,735 - INFO - Received prediction request: {'aanemia': 'no', 'albumin': 0, 'appetite': 'good', 'blood_urea': 40, 'diabetes_mellitus': 'no', 'haemoglobin': 12.3, 'hypertension': 'no', 'packed_cell_volume': 40, 'red_blood_cell_count': 5, 'serum_creatinine': 1.2, 'sodium': 140, 'specific_gravity': 1.02}
+2026-04-20 19:28:41,747 - INFO - Probabilities: {'Negatif CKD': 0.7233036297538724, 'Positif CKD': 0.27669637024612753}
+2026-04-20 19:28:41,747 - INFO - 127.0.0.1 - - [20/Apr/2026 19:28:41] "POST /predict HTTP/1.1" 200 -
+2026-04-20 19:33:18,966 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
+2026-04-20 19:33:19,276 - INFO -  * Restarting with stat
+2026-04-20 19:33:21,107 - WARNING -  * Debugger is active!
+2026-04-20 19:33:21,109 - INFO -  * Debugger PIN: 986-103-887
+2026-04-20 19:33:23,398 - INFO -  * Detected change in 'D:\\SKRIPSIII\\jipi\\naskah fiks\\npxrt\\NephroXpert_Clasification-API\\app.py', reloading
